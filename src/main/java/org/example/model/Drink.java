@@ -14,14 +14,6 @@ public class Drink extends OrderedItem {
         return drinkFlavor.getPrice();
     }
 
-    public DrinkFlavor getDrinkFlavor() {
-        return drinkFlavor;
-    }
-
-    public void setDrinkFlavor(DrinkFlavor drinkFlavor) {
-        this.drinkFlavor = drinkFlavor;
-    }
-
     @Override
     public String toString() {
         return "Drink{" +

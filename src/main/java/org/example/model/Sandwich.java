@@ -13,16 +13,11 @@ public class Sandwich extends OrderedItem {
 
     @Override
     public int calculatePrice() {
-        return ingredientItems.stream()
-                .mapToInt(IngredientItem::getPrice)
-                .sum();
+        return ingredientItems.stream().mapToInt(IngredientItem::getPrice).sum();
     }
 
     @Override
     public String toString() {
-        return "Sandwich{" +
-                "ingredientItems=" + ingredientItems +
-                ", price=" + calculatePrice() + "$" +
-                '}';
+        return "Sandwich{" + "ingredientItems=" + ingredientItems + ", price=" + calculatePrice() + "$" + '}';
     }
 }

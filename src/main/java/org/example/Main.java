@@ -31,6 +31,6 @@ public class Main {
 
         System.out.println("----------------------");
 
-        System.out.println("Calculating the price of all orders: " + subway1.calculateTotalIncome()+"$");
+        System.out.println("Calculating the price of all orders: " + subway1.calculateTotalIncome() + "$");
     }
 }
